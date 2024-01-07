@@ -1,6 +1,6 @@
 {
   "name": "ait-process",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A grown up version of Node's spawn/exec",
   "license": "Apache-2.0",
   "author": "ait-software",
@@ -48,7 +48,7 @@
     "source-map-support": "0.5.21"
   },
   "devDependencies": {
-    "eslint-config-armor": "github:ait-software/eslint-config-armor",
+    "eslint-config-armor": "git+https://ait-software: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@github.com/ait-software/eslint-config-armor.git",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@types/bluebird": "3.5.41",
