@@ -1,18 +1,22 @@
-name: "publish npm"
+name: Publish to npm
 
 on: push
-
+  
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '14'  # or use the latest stable version
+          node-version: '18'  # Choose a version compatible with npm 10.2.3
           registry-url: 'https://registry.npmjs.org'
+
+      - name: Update npm
+        run: npm install -g npm@latest
 
       - name: Install dependencies
         run: npm install
