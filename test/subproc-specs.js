@@ -72,7 +72,7 @@ describe('SubProcess', function () {
     /** @type {SubProcess?} */
     let s;
 
-    beforeEach(function() {
+    beforeEach(function () {
       s = null;
     });
 
@@ -376,7 +376,7 @@ describe('SubProcess', function () {
   describe('#detachProcess', function () {
     /** @type {SubProcess?} */
     let s;
-    beforeEach(function() {
+    beforeEach(function () {
       s = null;
     });
 
