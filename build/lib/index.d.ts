@@ -1,4 +1,7 @@
 /// <reference types="node" />
+export * from "./exec";
+export * from "./subprocess";
+export * from "child_process";
 export const exec: typeof execIndex.exec;
 export const spawn: typeof cp.spawn;
 export const SubProcess: typeof spIndex.SubProcess;
