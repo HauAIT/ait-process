@@ -22,9 +22,6 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
-var __exportStar = (this && this.__exportStar) || function(m, exports) {
-    for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SubProcess = exports.spawn = exports.exec = void 0;
 const source_map_support_1 = require("source-map-support");
@@ -38,7 +35,4 @@ const { SubProcess } = spIndex;
 exports.SubProcess = SubProcess;
 const { exec } = execIndex;
 exports.exec = exec;
-__exportStar(require("./exec"), exports);
-__exportStar(require("./subprocess"), exports);
-__exportStar(require("child_process"), exports);
 //# sourceMappingURL=index.js.map

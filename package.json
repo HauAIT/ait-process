@@ -1,8 +1,7 @@
 {
   "name": "ait-process",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A grown up version of Node's spawn/exec",
-  "license": "Apache-2.0",
   "author": "ait-software",
   "main": "./index.js",
   "bin": {},
