@@ -10,6 +10,4 @@ const { SubProcess } = spIndex;
 const { exec } = execIndex;
 
 export { exec, spawn, SubProcess };
-export * from './exec';
-export * from './subprocess';
-export * from 'child_process';
+export {AITProcessProps, AITProcessExecOptions, AITProcessExecStringResult} from './exec';
